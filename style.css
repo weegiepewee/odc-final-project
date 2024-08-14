@@ -83,6 +83,7 @@ a{
 
 .request-form{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1px;
 }
