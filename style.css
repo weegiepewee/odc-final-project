@@ -1,0 +1,119 @@
+.header{
+	background-image: url("Background-pic.jpg");
+	height: 400px;
+}
+	
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+}
+.logo-container{
+	margin: 5px;
+}
+.menu-items{
+	display: flex;
+	list-style: none;
+	gap: 15px;
+		}
+a{
+	color: brown;
+	font-weight: bold;
+	text-decoration: none;
+		}
+.top-title{
+	border: 3px solid black;
+	text-align: center;
+	background-color: brown;
+	color: white;
+		}
+.vegetable-container{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: orange;
+	padding: 10px;
+	gap: 10px;
+	justify-content: center;
+		}
+.vegetable{
+	border: 3px solid black;
+	width: 250px;
+		}
+.veg-info{
+	text-align: center;
+	padding: 5px;
+	background-color: whitesmoke;
+		}
+.features{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		}
+.feature{
+	display: flex;
+}
+.feature-title{
+	display: flex;
+			}
+.text-container{
+	display: flex;
+	text-direction: column;
+	align-items: center;
+	width: 500px;
+	gap: 20px;
+		}
+.treatment-review{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin: 20px;
+		}
+.video-container{
+	display: flex;
+}
+.contact-container{
+	background-color: orange;
+	border: 3px soild black;
+	padding: 20px;
+	text-align: center;
+		}
+
+.request-form{
+	display: flex;
+	justify-content: center;
+	gap: 1px;
+}
+.location-container{
+	display: flex;
+	background-color: orange;
+	padding: 10px;
+	gap: 10px;
+	justify-content: center;
+		}
+.location{
+	border: 3px solid black;
+	width: 100%;
+		}
+.farmers-container{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: green;
+	padding: 10px;
+	gap: 10px;
+	justify-content: center;
+		}
+.farmer-info{
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+.contact-info{
+	background-color: lightgreen;	
+	display: flex;
+	justify-content: space-between;
+		}
